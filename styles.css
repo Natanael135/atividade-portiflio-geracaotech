@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+body {
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  background-color: #6a0dad;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  flex: 1;
+}
+
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  margin-right: 20px;
+}
+
+.texto {
+  flex-grow: 1;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.link-portfolio {
+  color: #ffffff;
+  background-color: #984298;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.link-portfolio:hover {
+  background-color: #1e88e5;
+}
+
+.habilidades {
+  background-color: #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  font-size: 1.1em;
+  color: #984298;
+}
